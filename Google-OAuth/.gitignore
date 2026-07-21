@@ -1,2 +1,18 @@
 node_modules/
 .env
+
+# Environment files
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS and editor files
+.DS_Store
+.vscode/
